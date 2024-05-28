@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:  'poppins',sans-serif ;
+    /* background-color: #F2F2F2; */
+    background: rgb(7,176,251); background: linear-gradient(45deg, rgba(7,176,251,1) 53%, rgba(254,255,0,1) 53%);
+}
+nav{
+    background-color: #181A1C;
+    font-family: 'poppins',sans-serif;
+    padding: 0 7%;
+}
+
+nav ul{
+    float: inline-end;
+    display: inline-flex;
+    padding-top: 15px;
+    list-style: none;
+}
+ul li{
+    color: #F4F1DE; padding: 10px;
+    cursor: pointer;
+    
+}
+ul li:hover{
+    border: 2px solid white;
+}
+.text{
+    border-bottom: 1px solid rgb(8, 8, 8);
+    margin: 0 5%;
+}
+.text h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+.text ol{
+
+    /* border: 2px solid black; */
+    display: inline-flex;
+    list-style: none;
+    margin: 0 0 2%  28%;
+}
+ol li{
+    /* border: 2px solid black; */
+    color: #87A3A2;
+    padding-left: 9px ; font-size: 12px;
+}
+.boxes{
+    display: inline-flex;
+    /* border: 2px solid black; */
+    margin: 3% 0;
+    width: 100%;
+}
+.box1, .box2, .box3{ 
+    width: 70%; height: 77vh;
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+    margin: 0 1%;
+    box-shadow: 0px 0 21px  black;
+}
+.box1 h1, .box2 h1, .box3 h1{
+    text-align: center; color: white; background-color: black; margin: 0;
+    padding: 25px 0;
+}
+.box1 ul, .box2 ul, .box3 ul{
+    list-style: none;
+    padding: 0 20%; 
+}
+.box1 ul li, .box2 ul li, .box3 ul li{
+    color: black;
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+    
+}
+.box1 ul li:nth-child(1), .box2 ul li:nth-child(1), .box3 ul li:nth-child(1){
+    color: red; font-size: 32px;  font-weight: 600;
+}
+.box1 ul li:nth-child(6), .box2 ul li:nth-child(6), .box3 ul li:nth-child(6){
+    border: none; 
+}
+.text2{
+    text-align: center;  
+    margin: 0 0 10% 0;
+}
+.text2 button{
+    width: 160px; height: 55px; margin-bottom: 15px; font-size: 28px; transition: .3s all ease-in-out;
+}
+button:hover{
+    background-color: #181A1C;
+    color: white;
+    border: none;
+}
